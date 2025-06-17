@@ -1,1 +1,0 @@
-SELECT * FROM lexique LIMIT 10;
