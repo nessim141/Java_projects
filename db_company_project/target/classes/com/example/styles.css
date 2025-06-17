@@ -1,0 +1,53 @@
+.white-form{
+    -fx-background-color: #fff;
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: #000;
+    -fx-border-with: .5px;
+}
+
+.text-field:focused {
+    -fx-border-color: #4CAF50;
+    -fx-background-color: #f0f8ff;
+}
+
+.btn {
+    -fx-background-color: #9f9f9f;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #5f0d0d;
+    -fx-cursor: hand;
+}
+
+.btn:hover {
+    -fx-background-color: cornflowerblue;
+    
+}
+.combo-box {
+    -fx-background-color: #fff;
+    -fx-border-color: #ddd;
+    -fx-padding: 5px;
+    -fx-font-size: 15px;
+}
+/* styles.css */
+
+
+
+.combo-box .arrow-button {
+    -fx-background-color: #fff; /* Couleur de fond du bouton de la flèche */
+}
+
+.combo-box:focused {
+    -fx-border-color: #4CAF50; /* Couleur de la bordure lorsque la ComboBox est en focus */
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #fff; /* Couleur de fond de chaque élément de la liste déroulante */
+    -fx-text-fill: #333; /* Couleur du texte dans chaque élément de la liste déroulante */
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #f0f8ff; /* Couleur de fond au survol d'un élément de la liste déroulante */
+}
+
